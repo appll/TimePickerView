@@ -17,47 +17,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLy-Nw-y7B">
-                                <rect key="frame" x="248" y="203" width="104" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="A99-2d-16G"/>
-                                    <constraint firstAttribute="width" constant="104" id="hza-rG-WH0"/>
-                                </constraints>
-                                <state key="normal" title="选择时间"/>
-                                <connections>
-                                    <action selector="chooseTimeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lR-1J-o8z"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选取的时间为：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOL-kI-vfQ">
-                                <rect key="frame" x="221" y="299" width="159" height="59"/>
+                                <rect key="frame" x="221" y="484" width="159" height="59"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="159" id="OWo-Wa-EqJ"/>
-                                    <constraint firstAttribute="height" constant="59" id="XEB-49-q9M"/>
+                                    <constraint firstAttribute="width" constant="159" id="5HC-LY-nsa"/>
+                                    <constraint firstAttribute="height" constant="59" id="TO1-vt-LWr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psV-f8-YHc">
-                                <rect key="frame" x="167" y="386" width="266" height="41"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="167" y="551" width="266" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="him-r0-q1w"/>
-                                    <constraint firstAttribute="width" constant="266" id="lJD-YI-pPQ"/>
+                                    <constraint firstAttribute="height" constant="41" id="002-At-tg8"/>
+                                    <constraint firstAttribute="width" constant="266" id="BIW-5u-IDL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLy-Nw-y7B">
+                                <rect key="frame" x="248" y="59" width="104" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="9fa-I0-iFW"/>
+                                    <constraint firstAttribute="width" constant="104" id="Pv3-3N-rQM"/>
+                                </constraints>
+                                <state key="normal" title="选择时间"/>
+                                <connections>
+                                    <action selector="chooseTimeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lR-1J-o8z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5dR-jW-ida"/>
-                            <constraint firstItem="UOL-kI-vfQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJc-uq-4vY"/>
-                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="183" id="bma-Gi-gPa"/>
-                            <constraint firstItem="UOL-kI-vfQ" firstAttribute="top" secondItem="bLy-Nw-y7B" secondAttribute="bottom" constant="49" id="gTc-mE-Chc"/>
-                            <constraint firstItem="psV-f8-YHc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="naH-SP-3fg"/>
-                            <constraint firstItem="psV-f8-YHc" firstAttribute="top" secondItem="UOL-kI-vfQ" secondAttribute="bottom" constant="28" id="w2U-EW-Vh3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="psV-f8-YHc" secondAttribute="bottom" constant="8" id="9g4-gN-yDF"/>
+                            <constraint firstItem="UOL-kI-vfQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ab5-m2-vgD"/>
+                            <constraint firstItem="psV-f8-YHc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R8d-lQ-tBa"/>
+                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eDw-f1-9tW"/>
+                            <constraint firstItem="psV-f8-YHc" firstAttribute="top" secondItem="UOL-kI-vfQ" secondAttribute="bottom" constant="8" id="kxl-WR-qHz"/>
+                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="mxQ-yy-6BW"/>
                         </constraints>
                     </view>
                     <connections>
