@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "MyTimePickerView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+- (IBAction)chooseTimeAction:(id)sender;
 
 @end
 
@@ -24,4 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)chooseTimeAction:(id)sender {
+    [MyTimePickerView showTimePickerViewDeadLine:@"20160320" CompleteBlock:^(NSDictionary *infoDic) {
+        NSString *time = infoDic[@"time_value"];
+        _timeLabel.text = time;
+        NSLog(@"time---%@", time);
+    }];
+}
 @end

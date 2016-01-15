@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,57 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLy-Nw-y7B">
+                                <rect key="frame" x="248" y="203" width="104" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="A99-2d-16G"/>
+                                    <constraint firstAttribute="width" constant="104" id="hza-rG-WH0"/>
+                                </constraints>
+                                <state key="normal" title="选择时间"/>
+                                <connections>
+                                    <action selector="chooseTimeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lR-1J-o8z"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选取的时间为：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UOL-kI-vfQ">
+                                <rect key="frame" x="221" y="299" width="159" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="OWo-Wa-EqJ"/>
+                                    <constraint firstAttribute="height" constant="59" id="XEB-49-q9M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psV-f8-YHc">
+                                <rect key="frame" x="167" y="386" width="266" height="41"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="him-r0-q1w"/>
+                                    <constraint firstAttribute="width" constant="266" id="lJD-YI-pPQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5dR-jW-ida"/>
+                            <constraint firstItem="UOL-kI-vfQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJc-uq-4vY"/>
+                            <constraint firstItem="bLy-Nw-y7B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="183" id="bma-Gi-gPa"/>
+                            <constraint firstItem="UOL-kI-vfQ" firstAttribute="top" secondItem="bLy-Nw-y7B" secondAttribute="bottom" constant="49" id="gTc-mE-Chc"/>
+                            <constraint firstItem="psV-f8-YHc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="naH-SP-3fg"/>
+                            <constraint firstItem="psV-f8-YHc" firstAttribute="top" secondItem="UOL-kI-vfQ" secondAttribute="bottom" constant="28" id="w2U-EW-Vh3"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="psV-f8-YHc" id="WE7-8C-uWO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="445"/>
         </scene>
     </scenes>
 </document>
