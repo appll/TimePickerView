@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD1DB621C48A3B4000E1D8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB611C48A3B4000E1D8F /* main.m */; };
+		DDD1DB651C48A3B4000E1D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB641C48A3B4000E1D8F /* AppDelegate.m */; };
+		DDD1DB681C48A3B4000E1D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB671C48A3B4000E1D8F /* ViewController.m */; };
+		DDD1DB6B1C48A3B4000E1D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB691C48A3B4000E1D8F /* Main.storyboard */; };
+		DDD1DB6D1C48A3B4000E1D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB6C1C48A3B4000E1D8F /* Assets.xcassets */; };
+		DDD1DB701C48A3B4000E1D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB6E1C48A3B4000E1D8F /* LaunchScreen.storyboard */; };
+		DDD1DB7B1C48A3B5000E1D8F /* TimePickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB7A1C48A3B5000E1D8F /* TimePickerViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDD1DB771C48A3B5000E1D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDD1DB551C48A3B4000E1D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD1DB5C1C48A3B4000E1D8F;
+			remoteInfo = TimePickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDD1DB5D1C48A3B4000E1D8F /* TimePickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD1DB611C48A3B4000E1D8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDD1DB631C48A3B4000E1D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDD1DB641C48A3B4000E1D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDD1DB661C48A3B4000E1D8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDD1DB671C48A3B4000E1D8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDD1DB6A1C48A3B4000E1D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDD1DB6C1C48A3B4000E1D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDD1DB6F1C48A3B4000E1D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDD1DB711C48A3B4000E1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD1DB761C48A3B5000E1D8F /* TimePickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD1DB7A1C48A3B5000E1D8F /* TimePickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewDemoTests.m; sourceTree = "<group>"; };
+		DDD1DB7C1C48A3B5000E1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDD1DB5A1C48A3B4000E1D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD1DB731C48A3B5000E1D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDD1DB541C48A3B4000E1D8F = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB5F1C48A3B4000E1D8F /* TimePickerViewDemo */,
+				DDD1DB791C48A3B5000E1D8F /* TimePickerViewDemoTests */,
+				DDD1DB5E1C48A3B4000E1D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD1DB5E1C48A3B4000E1D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB5D1C48A3B4000E1D8F /* TimePickerViewDemo.app */,
+				DDD1DB761C48A3B5000E1D8F /* TimePickerViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD1DB5F1C48A3B4000E1D8F /* TimePickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB631C48A3B4000E1D8F /* AppDelegate.h */,
+				DDD1DB641C48A3B4000E1D8F /* AppDelegate.m */,
+				DDD1DB661C48A3B4000E1D8F /* ViewController.h */,
+				DDD1DB671C48A3B4000E1D8F /* ViewController.m */,
+				DDD1DB691C48A3B4000E1D8F /* Main.storyboard */,
+				DDD1DB6C1C48A3B4000E1D8F /* Assets.xcassets */,
+				DDD1DB6E1C48A3B4000E1D8F /* LaunchScreen.storyboard */,
+				DDD1DB711C48A3B4000E1D8F /* Info.plist */,
+				DDD1DB601C48A3B4000E1D8F /* Supporting Files */,
+			);
+			path = TimePickerViewDemo;
+			sourceTree = "<group>";
+		};
+		DDD1DB601C48A3B4000E1D8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB611C48A3B4000E1D8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDD1DB791C48A3B5000E1D8F /* TimePickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB7A1C48A3B5000E1D8F /* TimePickerViewDemoTests.m */,
+				DDD1DB7C1C48A3B5000E1D8F /* Info.plist */,
+			);
+			path = TimePickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDD1DB5C1C48A3B4000E1D8F /* TimePickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD1DB7F1C48A3B5000E1D8F /* Build configuration list for PBXNativeTarget "TimePickerViewDemo" */;
+			buildPhases = (
+				DDD1DB591C48A3B4000E1D8F /* Sources */,
+				DDD1DB5A1C48A3B4000E1D8F /* Frameworks */,
+				DDD1DB5B1C48A3B4000E1D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimePickerViewDemo;
+			productName = TimePickerViewDemo;
+			productReference = DDD1DB5D1C48A3B4000E1D8F /* TimePickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDD1DB751C48A3B5000E1D8F /* TimePickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDD1DB821C48A3B5000E1D8F /* Build configuration list for PBXNativeTarget "TimePickerViewDemoTests" */;
+			buildPhases = (
+				DDD1DB721C48A3B5000E1D8F /* Sources */,
+				DDD1DB731C48A3B5000E1D8F /* Frameworks */,
+				DDD1DB741C48A3B5000E1D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDD1DB781C48A3B5000E1D8F /* PBXTargetDependency */,
+			);
+			name = TimePickerViewDemoTests;
+			productName = TimePickerViewDemoTests;
+			productReference = DDD1DB761C48A3B5000E1D8F /* TimePickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDD1DB551C48A3B4000E1D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = App;
+				TargetAttributes = {
+					DDD1DB5C1C48A3B4000E1D8F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DDD1DB751C48A3B5000E1D8F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DDD1DB5C1C48A3B4000E1D8F;
+					};
+				};
+			};
+			buildConfigurationList = DDD1DB581C48A3B4000E1D8F /* Build configuration list for PBXProject "TimePickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDD1DB541C48A3B4000E1D8F;
+			productRefGroup = DDD1DB5E1C48A3B4000E1D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD1DB5C1C48A3B4000E1D8F /* TimePickerViewDemo */,
+				DDD1DB751C48A3B5000E1D8F /* TimePickerViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDD1DB5B1C48A3B4000E1D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD1DB701C48A3B4000E1D8F /* LaunchScreen.storyboard in Resources */,
+				DDD1DB6D1C48A3B4000E1D8F /* Assets.xcassets in Resources */,
+				DDD1DB6B1C48A3B4000E1D8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD1DB741C48A3B5000E1D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDD1DB591C48A3B4000E1D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD1DB681C48A3B4000E1D8F /* ViewController.m in Sources */,
+				DDD1DB651C48A3B4000E1D8F /* AppDelegate.m in Sources */,
+				DDD1DB621C48A3B4000E1D8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDD1DB721C48A3B5000E1D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD1DB7B1C48A3B5000E1D8F /* TimePickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDD1DB781C48A3B5000E1D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDD1DB5C1C48A3B4000E1D8F /* TimePickerViewDemo */;
+			targetProxy = DDD1DB771C48A3B5000E1D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDD1DB691C48A3B4000E1D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD1DB6A1C48A3B4000E1D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDD1DB6E1C48A3B4000E1D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDD1DB6F1C48A3B4000E1D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDD1DB7D1C48A3B5000E1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD1DB7E1C48A3B5000E1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDD1DB801C48A3B5000E1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimePickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.TimePickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDD1DB811C48A3B5000E1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimePickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.TimePickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDD1DB831C48A3B5000E1D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimePickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.TimePickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePickerViewDemo.app/TimePickerViewDemo";
+			};
+			name = Debug;
+		};
+		DDD1DB841C48A3B5000E1D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TimePickerViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzblzx.TimePickerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimePickerViewDemo.app/TimePickerViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDD1DB581C48A3B4000E1D8F /* Build configuration list for PBXProject "TimePickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD1DB7D1C48A3B5000E1D8F /* Debug */,
+				DDD1DB7E1C48A3B5000E1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDD1DB7F1C48A3B5000E1D8F /* Build configuration list for PBXNativeTarget "TimePickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD1DB801C48A3B5000E1D8F /* Debug */,
+				DDD1DB811C48A3B5000E1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDD1DB821C48A3B5000E1D8F /* Build configuration list for PBXNativeTarget "TimePickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD1DB831C48A3B5000E1D8F /* Debug */,
+				DDD1DB841C48A3B5000E1D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDD1DB551C48A3B4000E1D8F /* Project object */;
+}
