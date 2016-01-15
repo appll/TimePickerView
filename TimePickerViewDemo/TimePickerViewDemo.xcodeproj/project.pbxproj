@@ -14,6 +14,9 @@
 		DDD1DB6D1C48A3B4000E1D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB6C1C48A3B4000E1D8F /* Assets.xcassets */; };
 		DDD1DB701C48A3B4000E1D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB6E1C48A3B4000E1D8F /* LaunchScreen.storyboard */; };
 		DDD1DB7B1C48A3B5000E1D8F /* TimePickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB7A1C48A3B5000E1D8F /* TimePickerViewDemoTests.m */; };
+		DDD1DB8B1C48A44D000E1D8F /* MyTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB871C48A44D000E1D8F /* MyTimePickerView.m */; };
+		DDD1DB8C1C48A44D000E1D8F /* MyTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD1DB881C48A44D000E1D8F /* MyTimePickerView.xib */; };
+		DDD1DB8D1C48A44D000E1D8F /* MyTimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DB8A1C48A44D000E1D8F /* MyTimeTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		DDD1DB761C48A3B5000E1D8F /* TimePickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD1DB7A1C48A3B5000E1D8F /* TimePickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewDemoTests.m; sourceTree = "<group>"; };
 		DDD1DB7C1C48A3B5000E1D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD1DB861C48A44D000E1D8F /* MyTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTimePickerView.h; sourceTree = "<group>"; };
+		DDD1DB871C48A44D000E1D8F /* MyTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTimePickerView.m; sourceTree = "<group>"; };
+		DDD1DB881C48A44D000E1D8F /* MyTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTimePickerView.xib; sourceTree = "<group>"; };
+		DDD1DB891C48A44D000E1D8F /* MyTimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTimeTool.h; sourceTree = "<group>"; };
+		DDD1DB8A1C48A44D000E1D8F /* MyTimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTimeTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		DDD1DB5F1C48A3B4000E1D8F /* TimePickerViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DDD1DB851C48A44D000E1D8F /* timepickerview */,
 				DDD1DB631C48A3B4000E1D8F /* AppDelegate.h */,
 				DDD1DB641C48A3B4000E1D8F /* AppDelegate.m */,
 				DDD1DB661C48A3B4000E1D8F /* ViewController.h */,
@@ -109,6 +118,18 @@
 				DDD1DB7C1C48A3B5000E1D8F /* Info.plist */,
 			);
 			path = TimePickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DDD1DB851C48A44D000E1D8F /* timepickerview */ = {
+			isa = PBXGroup;
+			children = (
+				DDD1DB861C48A44D000E1D8F /* MyTimePickerView.h */,
+				DDD1DB871C48A44D000E1D8F /* MyTimePickerView.m */,
+				DDD1DB881C48A44D000E1D8F /* MyTimePickerView.xib */,
+				DDD1DB891C48A44D000E1D8F /* MyTimeTool.h */,
+				DDD1DB8A1C48A44D000E1D8F /* MyTimeTool.m */,
+			);
+			path = timepickerview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +215,7 @@
 				DDD1DB701C48A3B4000E1D8F /* LaunchScreen.storyboard in Resources */,
 				DDD1DB6D1C48A3B4000E1D8F /* Assets.xcassets in Resources */,
 				DDD1DB6B1C48A3B4000E1D8F /* Main.storyboard in Resources */,
+				DDD1DB8C1C48A44D000E1D8F /* MyTimePickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +235,9 @@
 			files = (
 				DDD1DB681C48A3B4000E1D8F /* ViewController.m in Sources */,
 				DDD1DB651C48A3B4000E1D8F /* AppDelegate.m in Sources */,
+				DDD1DB8D1C48A44D000E1D8F /* MyTimeTool.m in Sources */,
 				DDD1DB621C48A3B4000E1D8F /* main.m in Sources */,
+				DDD1DB8B1C48A44D000E1D8F /* MyTimePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
